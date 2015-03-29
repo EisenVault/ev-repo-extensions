@@ -23,9 +23,17 @@
 		depends-on="dictionaryBootstrap">
 		<property name="models">
 			<list>
+				<!-- Content models -->
 				<value>alfresco/module/${project.artifactId}/model/evDocExtModel.xml</value>
 			</list>
 		</property>
 	</bean>
-    
+	
+	<bean id="${project.artifactId}_resourceLabels" parent="dictionaryModelBootstrap" depends-on="resourceBundles">
+		<property name="labels">
+			<list>
+				<value>alfresco/messages/evDocExtModel</value>
+			</list>
+		</property>
+	</bean>
 </beans>

@@ -77,6 +77,7 @@
 			<properties>
 				<!-- Numerical Properties -->
 				<property name="ev:universalHealthcarId">
+					<title>Universal Healthcare ID</title>
 					<type>d:long</type>
 					<multiple>false</multiple>
 					<constraints>
@@ -84,6 +85,7 @@
 					</constraints>
 				</property>
 				<property name="ev:insuranceClaimNumber">
+					<title>Insurance Claim Number</title>
 					<type>d:long</type>
 					<multiple>false</multiple>
 					<constraints>
@@ -93,16 +95,19 @@
 			
 				<!-- Date Properties -->
 				<property name="ev:dateOfAdmission">
+					<title>Date of Admission</title>
 					<type>d:date</type>
 					<multiple>false</multiple>
 				</property>
 				<property name="ev:dateOfDischarge">
+					<title>Date of Discharge</title>
 					<type>d:date</type>
 					<multiple>false</multiple>
 				</property>
 
 				<!-- Text Properties -->
 				<property name="ev:treatingDoctor">
+					<title>Treating Doctor</title>
 					<type>d:text</type>
 					<multiple>false</multiple>
 					<constraints>
@@ -112,6 +117,7 @@
 	
 				<!-- List Properties -->
 				<property name="ev:modeOfPayment">
+					<title>Mode of Payment</title>
 					<type>d:text</type>
 					<multiple>false</multiple>
 					<constraints>
@@ -119,6 +125,7 @@
 					</constraints>
 				</property>
 				<property name="ev:typeOfDisease">
+					<title>Type of Disease</title>
 					<type>d:text</type>
 					<multiple>false</multiple>
 					<constraints>
@@ -128,6 +135,7 @@
 			
 				<!-- Physical Filing Properties -->
 				<property name="ev:barcodeNumber">
+					<title>Barcode Number</title>
 					<type>d:text</type>
 					<multiple>false</multiple>
 					<constraints>
@@ -136,6 +144,7 @@
 					</constraints>
 				</property>
 				<property name="ev:fileNumber">
+					<title>File Number</title>
 					<type>d:text</type>
 					<multiple>false</multiple>
 					<constraints>
@@ -144,6 +153,7 @@
 					</constraints>
 				</property>
 				<property name="ev:boxNumber">
+					<title>Box Number</title>
 					<type>d:text</type>
 					<multiple>false</multiple>
 					<constraints>
