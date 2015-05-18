@@ -72,7 +72,7 @@
 	<types>
 		<!--  Enterprise-wide generic document type -->
 		<type name="ev:doc">
-			<title>EisenVault Generic Document</title>
+			<title>EisenVault Health Care Document</title>
 			<parent>cm:content</parent>
 			<properties>
 				<!-- Numerical Properties -->
